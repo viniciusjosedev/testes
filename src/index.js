@@ -18,6 +18,6 @@ app.post('/', (req, res) => {
 	}, 1000)
 })
 
-app.listen(3000, () => {
+app.listen(process.env.PORT, () => {
 	console.log('rodando na porta 3000', processo);
 })
